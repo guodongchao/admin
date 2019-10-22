@@ -1,0 +1,24 @@
+<?php
+    $arr=[
+        [
+            'username'=>'小明',
+            'sex'=>'男',
+            'age'=>20
+        ],
+        [
+            'username'=>'小明',
+            'sex'=>'男',
+            'age'=>20
+        ],
+        [
+        'username'=>'小明',
+        'sex'=>'男',
+        'age'=>20
+        ]
+    ];
+    $tel=18574172416;
+    foreach($arr as $k=>$v){
+        $arr[$k]['tel']=$tel;
+    }
+    print_r($arr);
+?>
